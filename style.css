@@ -243,8 +243,8 @@ body.loading { overflow: hidden; }
   justify-content: center;
 }
 .hero-logo {
-  width: 60%;
-  max-width: 340px;
+  width: 90%;
+  max-width: 560px;
 }
 .browser-frame {
   background: #fff;
@@ -600,7 +600,7 @@ form.contact-form { display: flex; flex-direction: column; gap: 16px; }
   .nav-toggle { display: flex; }
   .hero h1 { font-size: 32px; }
   .hero-visual { padding: 20px 30px; }
-  .hero-logo { max-width: 260px; }
+  .hero-logo { width: 75%; max-width: 320px; }
   .nav-logo span { font-size: 13px; letter-spacing: 0.08em; }
 }
 
