@@ -125,7 +125,8 @@ body.loading { overflow: hidden; }
   letter-spacing: 0.02em;
   color: var(--charcoal);
 }
-.nav-logo img { height: 52px; width: auto; }
+.nav-logo img { height: 38px; width: auto; }
+.nav-logo span { font-size: 17px; }
 .nav-links {
   display: flex;
   gap: 36px;
@@ -230,10 +231,17 @@ body.loading { overflow: hidden; }
 .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
 
 .hero-visual {
-  background: var(--surface);
-  border-radius: 18px;
-  border: 1px solid var(--border);
-  overflow: hidden;
+  background: transparent;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-logo {
+  width: 100%;
+  max-width: 380px;
+  -webkit-mask-image: radial-gradient(ellipse 68% 68% at center, black 50%, transparent 100%);
+  mask-image: radial-gradient(ellipse 68% 68% at center, black 50%, transparent 100%);
 }
 .browser-frame {
   background: #fff;
