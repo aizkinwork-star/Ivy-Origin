@@ -243,8 +243,8 @@ body.loading { overflow: hidden; }
   justify-content: center;
 }
 .hero-logo {
-  width: 100%;
-  max-width: 100%;
+  width: 60%;
+  max-width: 340px;
 }
 .browser-frame {
   background: #fff;
