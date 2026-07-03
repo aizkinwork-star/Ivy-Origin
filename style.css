@@ -210,8 +210,8 @@ body.loading { overflow: hidden; }
 }
 .hero .container {
   display: grid;
-  grid-template-columns: 1fr 1.15fr;
-  gap: 40px;
+  grid-template-columns: 0.95fr 1.3fr;
+  gap: 30px;
   align-items: center;
 }
 .eyebrow {
@@ -245,8 +245,6 @@ body.loading { overflow: hidden; }
 .hero-logo {
   width: 100%;
   max-width: 100%;
-  -webkit-mask-image: radial-gradient(ellipse 70% 70% at center, black 55%, transparent 100%);
-  mask-image: radial-gradient(ellipse 70% 70% at center, black 55%, transparent 100%);
 }
 .browser-frame {
   background: #fff;
