@@ -126,7 +126,12 @@ body.loading { overflow: hidden; }
   color: var(--charcoal);
 }
 .nav-logo img { height: 38px; width: auto; }
-.nav-logo span { font-size: 17px; }
+.nav-mark { width: 26px; height: 26px; flex-shrink: 0; }
+.nav-logo span {
+  font-size: 15px;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+}
 .nav-links {
   display: flex;
   gap: 36px;
@@ -232,16 +237,16 @@ body.loading { overflow: hidden; }
 
 .hero-visual {
   background: transparent;
-  padding: 20px 40px;
+  padding: 50px 60px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .hero-logo {
   width: 100%;
-  max-width: 380px;
-  -webkit-mask-image: radial-gradient(ellipse 68% 68% at center, black 50%, transparent 100%);
-  mask-image: radial-gradient(ellipse 68% 68% at center, black 50%, transparent 100%);
+  max-width: 460px;
+  -webkit-mask-image: radial-gradient(ellipse 70% 70% at center, black 55%, transparent 100%);
+  mask-image: radial-gradient(ellipse 70% 70% at center, black 55%, transparent 100%);
 }
 .browser-frame {
   background: #fff;
@@ -596,6 +601,9 @@ form.contact-form { display: flex; flex-direction: column; gap: 16px; }
   .nav-links a { display: block; padding: 12px 0; }
   .nav-toggle { display: flex; }
   .hero h1 { font-size: 32px; }
+  .hero-visual { padding: 20px 30px; }
+  .hero-logo { max-width: 260px; }
+  .nav-logo span { font-size: 13px; letter-spacing: 0.08em; }
 }
 
 /* ===== Reduced motion ===== */
